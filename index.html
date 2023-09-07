@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaHost - your nonstop web hosting destination</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    
+  <link rel="stylesheet" href="/assets/index-cee11c44.css">
+</head>
+
+<body style="background-image: url(https://th.bing.com/th/id/OIP.SK_JA0WmyVu5Rp1xX_S_DQHaFL?pid=ImgDet&rs=1);" class="  bg-blend-soft-light bg-violet-600 text-white">
+  
+        <nav class="p-5 cursor-pointer" >
+            <ul class="flex  space-x-9 font-medium">
+                <li class=" mx-32 text-2xl"><a href=""><b>Mega</b>Host</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Feature</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Live Chat</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+
+        <main class="flex flex-col justify-center items-center justify-items-center my-32 ">
+            <p >SMART COMPANY WITH PERFECT SPACE</p>
+            <h1 id="typetxt" class="font-bold text-5xl my-12 "></h1>
+            <p >Form male saying shield so entry winged after spirit male land moving won;t</p>
+            <p >season fishin shall given fifth edition</p>
+            <button class="my-8 border-2 rounded-2xl p-4 hover:bg-slate-400" onclick="">Get Started</button>
+        </main>
+    </div>
+    <div class="flex  items-center justify-center space-x-5 bg-white text-black p-14">
+        <h1 class="font-semibold text-2xl">Search Your Domain Now</h1>
+        <div class="mt-6">
+            <input class="border-2 p-3 w-[39vw]" id="search" type="text" name="search" placeholder="Enter Your Domain Name">
+            <ul class="flex space-x-4 flex-row ">
+                <li><input type="checkbox"> <b>.com</b><span class="opacity-30">($7.34)</span>></li>
+                <li><input type="checkbox"><b> .in</b><span class="opacity-30">($3.49)</span></li>
+                <li><input type="checkbox"> <b>.org</b><span class="opacity-30">($5.23)</span></li>
+                <li><input type="checkbox"> <b>.net</b><span class="opacity-30">($5.59)</span></li>
+            </ul>
+        </div>
+
+        <button class="my-8 border-2 hover:bg-emerald-600 bg-violet-700  p-3 px-6" onclick="">Search</button>
+    </div>
+
+</body>
+<script>
+    // Typing effect for h1
+
+    const text = 'POWERFULL WEB HOSTING'
+
+    function typeText() {
+
+
+        for (let i = 0; i < text.length; i++) {
+            setTimeout(function () {
+                typetxt.innerHTML += text[i];
+            }, i * 200); // Adjust the delay (e.g., 100ms) for typing speed
+
+        }
+
+    }
+
+    setInterval(() => {
+        typetxt.innerHTML = '';
+        typeText();
+    }, 6000);
+    window.onload = typeText();
+</script>
+
+</html>
